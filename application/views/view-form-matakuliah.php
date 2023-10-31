@@ -8,6 +8,8 @@
 <body>
 
     <center>
+        <?= validation_errors(); ?> 
+        <!-- sama saja dengan ?php echo -->
         <form action="<?= $this->config->config['base_url'].'matakuliah/cetak';?>" method="post"> 
             <table>
                 <tr>
